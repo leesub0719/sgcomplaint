@@ -1,0 +1,31 @@
+.gradle/
+.gradle-*/
+build/
+build-*/
+bin/
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.log
+
+# Local secrets and production-only configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.p12
+*.pem
+*.key
+
+# Runtime data
+uploads/
+logs/
+
+# Local build/verification artifacts
+/build-validation-api.jar
+
+# Operating system files
+.DS_Store
+Thumbs.db
